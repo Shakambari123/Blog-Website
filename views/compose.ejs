@@ -5,7 +5,7 @@
 <form action="/compose" method="post">  <!-- Note that the action should be set to what should be written in browser so as to route to this page. method should be post. -->
     <div class="form-group">
         <label>Title</label>
-        <input type="text" name="postTitle" class="form-control">
+        <input type="text" name="postTitle" class="form-control">  <!-- name value (postTitle) is the name by which we would address this text in app.js  (req.body.postTitle).-->
         <label>Post</label>
         <textarea class="form-control" name="postBody" id="" cols="30" rows="10"></textarea>
     </div>
